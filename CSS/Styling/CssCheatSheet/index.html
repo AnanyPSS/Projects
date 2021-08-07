@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>CheatSheet</title>
+</head>
+
+<body>
+  <div>
+    <h1>CSS Selectors and Specificity</h1>
+  </div>
+  <div>
+    <h3>All CSS Selectors</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Selector</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>div</td>
+          <td>Tag Selector</td>
+          <td>Select the whole tag with specific name.</td>
+        </tr>
+        <tr>
+          <td>.class</td>
+          <td>Class Selector</td>
+          <td>Select the element with the given class.</td>
+        </tr>
+        <tr>
+          <td>#id</td>
+          <td>Id Selector</td>
+          <td>Select the element or tag with given id name.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div>
+    <h3>Specificity Of Selectors</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Inline Style</td>
+          <td>style=" "</td>
+          <td>Highest specificity because presented at the last.</td>
+        </tr>
+        <tr>
+          <td>#id</td>
+          <td>Id Selector</td>
+          <td>Important because each element has a unique ID</td>
+        </tr>
+        <tr>
+          <td>.class</td>
+          <td>Class Selector</td>
+          <td>There are multiple elements having same class</td>
+        </tr>
+        <tr>
+          <td>div</td>
+          <td>Tag Selector</td>
+          <td>There are multiple or countless div elements in a page.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</body>
+
+</html>
